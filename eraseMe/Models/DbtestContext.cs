@@ -48,4 +48,6 @@ public partial class DbtestContext : DbContext
     }
 
     partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
+
+   
 }
