@@ -1,9 +1,12 @@
+  //Create React js Application in ASP.Net Core 6
+
+
 import { useEffect, useState } from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 const App = () => {
   const [employees, setEmployees] = useState([]);
 
-  
+
 
   useEffect(() => {
     fetch("api/employee/GetEmployees")
