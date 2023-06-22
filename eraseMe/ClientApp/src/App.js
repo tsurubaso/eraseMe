@@ -14,7 +14,8 @@ const App = () => {
         console.log(response);
         return response.json();
       })
-      .then((responseJson) => {
+        .then((responseJson) => {
+            console.log(JSON.stringify(responseJson));
         setEmployees(responseJson);
       });
   }, [])

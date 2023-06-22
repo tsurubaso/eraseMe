@@ -21,6 +21,7 @@ namespace eraseMe.Controllers
         {
             List<Employee>List = _dbtestContext.Employees.ToList();
             return StatusCode(StatusCodes.Status200OK, List);
+           
 
         }
 
